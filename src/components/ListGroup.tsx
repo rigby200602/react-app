@@ -7,7 +7,7 @@ function ListGroup() {
     <Fragment>
         <h1>List</h1>
         <ul className="list-group">
-            {item.map(item=> <li>{item}</li>)}
+            {item.map(item=> <li className="list-group-item">{item}</li>)}
         </ul>
     </Fragment>
     )
